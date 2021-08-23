@@ -262,7 +262,7 @@ export const projects = [
 			"Worked on a single page application using React JS along with Redux, with Node JS in the middle tier and MongoDB for database management that communicate with backend via RESTful API",
 		],
 		github: "https://github.com/KarnVadaliya/Expert-Hiring",
-		link: "#",
+		link: "http://expert-hiring-system.herokuapp.com/",
 	},
 	{
 		name: "Weather Application",
@@ -272,7 +272,6 @@ export const projects = [
 			"Implemented the functionality of switching different temperature units with fetching the data through various API calls",
 		],
 		github: "https://github.com/KarnVadaliya/WeatherForecast",
-		link: "#",
 	},
 	{
 		name: "NGO Helper System",
@@ -290,7 +289,7 @@ export const projects = [
 			"Generated an illustrative sample of a transport office database, in PostgreSQL with end to end functionalities like managing data for driving license and vehicle registration",
 			"Formulated an entity-relationship diagram and relational schema and implemented various insert scripts, triggers, stored procedures, and SQL queries to respond to a request raised by a user",
 		],
-		github: "https://github.com/1hanzla100",
+		github: "javascript: void(0)",
 	},
 ];
 
