@@ -28,7 +28,7 @@ const Skills = () => {
                         {
                             skillsSection.softwareSkills.map((skill) => {
                                 return <Fragment key={skill.skillName}>
-                                    <a href={skill.link} target="_blank">
+                              <a href={(window.innerWidth > 600)?(skill.link):("javascript: void(0)")} target={(window.innerWidth > 600)?("_blank"):"_self"}>
                             <div className="icon icon-lg icon-shape shadow rounded-circle mb-5"  id={skill.skillName}>
                                 <span className="iconify" data-icon={skill.fontAwesomeClassname} data-inline="false"></span>
                             </div>
