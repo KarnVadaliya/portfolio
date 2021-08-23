@@ -6,7 +6,7 @@ import daiictlogo from "./assets/img/icons/common/daiict.png";
 export const greetings = {
 	name: "Karn Vadaliya",
 	title: "Hi, I'm Karn",
-	description1:"A technology enthusiast and a proficient software engineer with good hands-on experience and extensive skills in domains like software design and development, scripting, web application development, code analysis, cloud, and cross-platform development. I am very passionate and meticulous about my work and have the ability to find innovative solutions to real-world problems. ",
+	description1:"A technology enthusiast and proficient software engineer with good hands-on experience and extensive skills in domains like software design and development, scripting, web application development, code analysis, cloud, and cross-platform development. I am very passionate and meticulous about my work and have the ability to find innovative solutions to real-world problems. ",
 	description2:"A team player with proven track of excellent work ethic, leadership, unparalleled attention to detail, ability to produce high-quality code and great sense of humor.",
 };
 
