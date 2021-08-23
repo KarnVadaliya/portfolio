@@ -17,7 +17,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/profile.php?id=100003241005050",
+	facebook: "https://www.facebook.com/KarnVadaliya",
 	instagram: "https://www.instagram.com/karn_1597",
 	twitter: "https://twitter.com/VadaliyaKarn",
 	github: "https://github.com/KarnVadaliya",
