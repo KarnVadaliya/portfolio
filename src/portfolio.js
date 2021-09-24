@@ -2,6 +2,8 @@ import emoji from "react-easy-emoji";
 
 import doblelogo from "./assets/img/icons/common/doble.png";
 import daiictlogo from "./assets/img/icons/common/daiict.png";
+import CloudPractitioner from "./assets/img/icons/common/Cloud-Practitioner.png";
+import DeveloperAssociate from "./assets/img/icons/common/Developer-Associate.png";
 
 export const greetings = {
 	name: "Karn Vadaliya",
@@ -222,6 +224,19 @@ export const experience = [
 			"Developed a full-stack web application using HTML, CSS, Bootstrap, JavaScript, jQuery, and Firebase, which helps the customer to visualize different combinations of tiles and followed an agile development practice such as Scrum",
 		],
 	}
+];
+
+export const certificates = [
+	{
+		name: CloudPractitioner,
+		link:"https://drive.google.com/file/d/1d8HG7YA2GTmvY51jO_5Afa4_oVYDHMml/view?usp=sharing",
+	},
+	{
+		name: DeveloperAssociate,
+		link:"https://drive.google.com/file/d/1jE4KyZxXgVwGrvxxz_jNwKRTjD_2zqNR/view?usp=sharing",
+	}
+
+
 ];
 
 export const projects = [

@@ -8,6 +8,7 @@ import Education from "./containers/Education";
 import Experience from "./containers/Experience";
 import Projects from "./containers/Projects";
 import GithubProfile from "./containers/GithubProfile";
+import Certification from "./containers/Certification"
 import Feedbacks from "./containers/Feedbacks";
 
 import "index.css";
@@ -23,6 +24,7 @@ ReactDOM.render(
 		<Proficiency />
 		<Education />
 		<Experience />
+		<Certification/>
 		<Projects />
 		<GithubProfile />
 	</>,
