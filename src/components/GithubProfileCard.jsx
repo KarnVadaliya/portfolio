@@ -1,4 +1,6 @@
 import React from 'react';
+import email from '../assets/lottie/email.json';
+import DisplayLottie from '../components/DisplayLottie'
 
 import {
     Card,
@@ -25,12 +27,22 @@ const GithubProfileCard = ({prof}) => {
                       <p className="lead text-white mt-3">
                         DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL QUERIES
                       </p>
+                      
+                    
+                      
+                      <a href="mailto:vadaliya.k@northeastern.edu">
+                      <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
+                      <i className="ni ni-email-83 text-info mr-2" />
+                        Contact Me
+                        </div>
+                        </a>
+                      
                       <p className="text-white mt-3">
                           {prof.bio}
                       </p>
                       <a href="https://www.google.com/maps/place/Boston,+MA/@42.3140089,-71.2504676" target="_blank">
                       <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-                        <i className="ni ni-pin-3 text-info mr-4" />
+                        <i className="ni ni-pin-3 text-info mr-2" />
                         {prof.location}
                         </div>
                         </a>
